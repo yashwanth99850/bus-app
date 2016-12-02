@@ -1,0 +1,24 @@
+input[type="text"]
+{
+	background-color:#E5E4E2;
+	border-radius:5px;
+	padding:6px;
+}
+input[type="password"]
+{
+	background-color:#E5E4E2;
+	border-radius:5px;
+	padding:6px;
+}
+input[type="date"]
+{
+	background-color:#E5E4E2;
+	border-radius:5px;
+	padding:6px;
+}
+select
+{
+	background-color:#E5E4E2;
+	border-radius:5px;
+	padding:4px;
+}

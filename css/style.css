@@ -1,0 +1,45 @@
+
+.image
+{
+		background-color:#ffffff;
+	
+}
+.pageback
+{
+		background-image: url("../images/image5.jpg");
+}
+.temppage
+{
+	background-image: url("../images/image5.jpg");
+}
+.s1
+{
+		border-radius:px;
+}
+.homebg
+{
+	background-image: url("../images/image3.jpg");
+}
+.buttonstyle
+{ height: 18px;
+  width: 18px;
+  border-radius:px;
+  padding:5px 5px 10px 7px; 
+}
+.tab
+{
+	border-style: solid;
+    border-color: #151B54 #151B54 #2B65EC;
+}
+.in
+{
+	background-image: url("../images/image10.jpg");
+}
+.p
+{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.linkw a 
+{
+	text-decoration:none;
+}

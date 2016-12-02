@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+<script>  
+function validateform(){  
+var name=document.b.username.value;  
+var password=document.b.npwd.value;
+
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("password must be at least 6 characters long.");  
+  return false;  
+  }  
+  
+ }  
+</script>  
+</head>
+<body bgcolor="lightblue">
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+        
+        <form name="b" class="form-basic" method="get" action="ChangePw" onsubmit="return validateform()">
+
+            <div class="form-title-row">
+                <h1>Change Password</h1>
+            </div>
+
+                
+              <div class="form-row">
+                <label>
+                    <span>User Name</span>
+                    <input type="text" name="username">
+                </label>
+            </div>
+              
+                
+            <div class="form-row">
+                <label>
+                    <span>New Password</span>
+                    <input type="password" name="npwd">
+                </label>
+            </div>
+			<div class="form-row">
+                <button type="submit">Submit</button>
+            </div>
+             
+        </form>
+
+    </div>
+
+</body>
+
+</html>

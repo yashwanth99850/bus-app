@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+  
+<welcome-file-list>
+		<welcome-file>newfrontpage.jsp</welcome-file>
+	</welcome-file-list> 
+
+  <servlet>  
+    <description></description>  
+    <display-name>Login</display-name>  
+    <servlet-name>Login</servlet-name>  
+    <servlet-class>Login</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+    <servlet-name>Login</servlet-name>  
+    <url-pattern>/Login</url-pattern>  
+  </servlet-mapping>  
+ 
+  <servlet>  
+    <description></description>  
+    <display-name>Profile</display-name>  
+    <servlet-name>Profile</servlet-name>  
+    <servlet-class>Profile</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+    <servlet-name>Profile</servlet-name>  
+    <url-pattern>/Profile</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>Logout</display-name>  
+    <servlet-name>Logout</servlet-name>  
+    <servlet-class>Logout</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Logout</servlet-name>  
+    <url-pattern>/Logout</url-pattern>  
+  </servlet-mapping>  
+
+<servlet>  
+    <description></description>  
+    <display-name>Register</display-name>  
+    <servlet-name>Register</servlet-name>  
+    <servlet-class>Register</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Register</servlet-name>  
+    <url-pattern>/Register</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>NewUpdate</display-name>  
+    <servlet-name>NewUpdate</servlet-name>  
+    <servlet-class>NewUpdate</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+    <servlet-name>NewUpdate</servlet-name>  
+    <url-pattern>/NewUpdate</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>Update</display-name>  
+    <servlet-name>Update</servlet-name>  
+    <servlet-class>Update</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+    <servlet-name>Update</servlet-name>  
+    <url-pattern>/Update</url-pattern>  
+  </servlet-mapping>  
+</web-app>  
+
